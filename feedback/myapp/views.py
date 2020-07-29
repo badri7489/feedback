@@ -19,7 +19,7 @@ def feedbackView(request):
                 [request.POST.get('email')],
                 # fail_silently=False,
             )
-            redirect('thanks')
+            return redirect('thanks')
 
     context = {'form': form}
     return render(request, 'myapp/feedback_form.html', context)

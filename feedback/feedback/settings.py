@@ -124,8 +124,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST_USER = 'your email id'
+EMAIL_HOST_USER = 'your email'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_PASSWORD = 'password of the email id from where you will send the mails'
+EMAIL_HOST_PASSWORD = 'your password'
